@@ -2161,7 +2161,11 @@ fieldset:disabled a.btn {
 .btn-link {
   font-weight: 400;
   color: #f58a77;
-  text-decoration: none; }
+  text-decoration: none; 
+  margin-left: -13px;
+  margin-top: -9px;
+  
+  }
   .btn-link:hover {
     color: #f04d30;
     text-decoration: underline; }
