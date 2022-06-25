@@ -4617,3 +4617,21 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+
+  
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+ /*  font-display: block; */
+  src: url("../webfonts/NotoSansKR-Light#iefix") format("embedded-opentype"), 
+       url("../webfonts/NotoSansKR-Light") format("otf") format("eopentype"); 
+  
+  }
+
+.fa,
+.fas {
+  font-family: 'Noto Sans KR';
+  font-weight: 400; }
+  
