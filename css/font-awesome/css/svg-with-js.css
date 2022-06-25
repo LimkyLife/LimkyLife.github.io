@@ -102,7 +102,8 @@ svg:not(:root).svg-inline--fa {
   background-color: #ff253a;
   border-radius: 1em;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+          box-sizi
+          ng: border-box;
   color: #fff;
   height: 1.5em;
   line-height: 1;
