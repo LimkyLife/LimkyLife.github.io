@@ -84,9 +84,9 @@
 			position: relative;
 			top: 50%;
 			left: 50%;
-			overflow: auto;
+			overflow: hidden;
 			/* height: 300px; */
-			width: 375px;
+			width: 355px;
 			transform: translate(-50%, -50%);
 			z-index: 1002;
 			box-sizing: border-box;
@@ -97,7 +97,7 @@
 		}
 		/*컨텐츠 영역*/
 		.popup_box .popup_cont {
-			padding: 10px;
+			padding: 20px;
 			line-height: 1.4rem;
 			font-size: 14px;
 		}
@@ -117,7 +117,7 @@
 			display: table;
 			table-layout: fixed;
 			width: 100%;
-			height: 70px;
+	/* 		height: 70px; */
 			background: #ECECEC;
 			word-break: break-word;
 		}
@@ -125,7 +125,7 @@
 		.popup_box .popup_btn a {
 			position: relative;
 			display: table-cell;
-			height: 70px;
+	/* 		height: 70px; */
 			font-size: 17px;
 			text-align: center;
 			vertical-align: middle;
@@ -133,7 +133,7 @@
 			background: #ECECEC;
 		}
 		
-		.popup_box .popup_btn a:before {
+/* 		.popup_box .popup_btn a:before {
 			content: '';
 			display: block;
 			position: absolute;
@@ -148,8 +148,8 @@
 			-o-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 		}
-		
-		.popup_box .popup_btn a:after {
+		 */
+/* 		.popup_box .popup_btn a:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -164,7 +164,7 @@
 			-o-transform: rotate(45deg);
 			transform: rotate(45deg);
 		}
-		
+		 */
 		.popup_box .popup_btn a.close_day {
 			background: #5d5d5d;
 		}
@@ -187,28 +187,29 @@
 		
 		
 		.box01{
-            text-align: center;
+            text-align: right;
         }
         .box01 input{
             border: none;
             font-size: 15px;
             outline: none;
             text-align: center;
-        	width: 100px;
+        	width: 120px;
         }
         .box01 button{
             border:none;
-            width:68px;
-            max-width: 100px;
-            vertical-align: bottom;
+            background: #343a40;
+		    color: white;
+		    border-radius: 20px;
+		    font-size: 11px;
+   			margin-bottom: 10px;
         }
         .box01 button img{
             width: 100%;
         }
         
         .numbers{
-        	float: left;
-        	margin: 5px;
+			font-weight: 600px;
         }
 </style>
   <body id="top">
@@ -324,7 +325,7 @@
           	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
   <!--         	      	 <span class="text-muted">마음 전하실 곳</span> -->
                   </div>
-                  <a class="text-muted" href="javascript:openPop()">마음 전하실 곳</a>
+                  <a class="text-muted" href="javascript:openPop()" style="font-size: 15px">마음 전하실 곳</a>
 
                 </div>
               </div>
@@ -336,24 +337,26 @@
             <div class="col-md-4">
               <div class="card d-block mb-3"><img class="card-img-top" src="images/bride-maid-1.jpg" alt="Bride Maid 1"/>
                 <div class="card-body text-center">
-                  <div>
-                    <span class="text-muted">신&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부 <strong class="text-muted">김기은</strong>
-                    <a class="btn btn-link" href="tel:010-4642-9612"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
-          			<a class="btn btn-link" href="sms:010-4642-9612" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-         			<span class="text-muted">마음 전하실 곳</span>      	
+				<div>
+                  <span class="text-center text-muted contactus">신&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부 <strong class="text-muted contactus">김기은</strong>
+                    <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
+          	      	<a class="btn btn-link" href="sms:010-4642-9612" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
+         <!-- 			<span class="text-muted" style="font-weight:700!important;">마음 전하실 곳</span>    -->  	
          		  </div>
           	      <div>
-                    <span class="text-muted">아버지 <strong class="text-muted">김병옥</strong>
-                    <a class="btn btn-link" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
+                  <span class="text-muted contactus">아버지 <strong class="text-muted contactus">김병옥</strong>
+                    <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
           	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-         			<span class="text-muted">마음 전하실 곳</span>      	
+         		<!-- 	<span class="text-muted">마음 전하실 곳</span>   -->    	
          		  </div>
          		  <div>	
-               		<span class="text-muted">어머니 <strong class="text-muted">이혜영</strong>
-                    <a class="btn btn-link" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
+               		<span class="text-muted contactus">어머니 <strong class="text-muted contactus">이혜영</strong>
+                    <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
           	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-          	      	<span class="text-muted">마음 전하실 곳</span>
+  <!--         	      	 <span class="text-muted">마음 전하실 곳</span> -->
                   </div>
+                  <a class="text-muted" href="javascript:openPop()" style="font-size: 15px">마음 전하실 곳</a>
+
                   </div> 
                 </div>
               </div>
@@ -544,7 +547,7 @@
   </div>
 </div>
 
-	<div class="popup_layer" id="popup_layer" style="display: none;">
+<div class="popup_layer" id="popup_layer" style="display: none;">
   <div class="popup_box">
       <div style="height: 10px; width: 375px; float: top;">
 <!--         <a href="javascript:closePop();"><img src="images/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>  -->
@@ -553,29 +556,72 @@
       <div class="popup_cont">
          <h6 class="text-muted">신랑측 계좌번호</h6>
          <p></p>
-		
-		 <div style="align-content: center;">
-         <div class="numbers">신&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;랑 임경호&nbsp;&nbsp;|&nbsp;&nbsp;신한</div>
-         <div class="numbers box01">
-         		<input id="myInput" value="110-401-755415" readonly>
-				<button onclick="copy_to_clipboard(event)">복사하기</button>
-		 </div>
-		 </div>
-         <div class="numbers">아버지 임규홍&nbsp;&nbsp;|&nbsp;&nbsp;신한</div>
-         <div class="numbers box01">
-         		<input id="myInput" value="110-401-755415" readonly>
-				<button onclick="copy_to_clipboard(event)">복사하기</button>
-		 </div>
-         <div class="numbers">어머니 김정덕&nbsp;&nbsp;|&nbsp;&nbsp;신한</div>
-         <div class="numbers box01">
-         		<input id="myInput" value="110-401-755415" readonly>
-				<button onclick="copy_to_clipboard(event)">복사하기</button>
-		 </div>
+         
+         <div class="box01 text-muted">
+   		 	<span style="float: left;"><strong style="float: left;">신랑 임경호</strong></span>
+   		    <label>신한은행</label>
+         	<input id="myInput" value="110-401-755415" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>    
+         
+   		 <div class="box01 text-muted">
+        	<span style="float: left;"><strong style="float: left;">혼주 임규홍</strong></span>
+        	<label>우리은행</label>
+         	<input id="myInput" value="1002-657-272729" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>         
+
+   		 <div class="box01 text-muted">
+     		<span style="float: left;"><strong style="float: left;">혼주 김정덕 </strong></span>
+     		<label>농협은행</label>
+         	<input id="myInput" value="211042-52-050583" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>         
+
 
       </div>
       <!--팝업 버튼 영역-->
       <div class="popup_btn" style="float: bottom;">
-          <a href="javascript:closePop();">닫기</a>
+          <a href="javascript:closePop();" style="color: #28a745; height: 50px;">닫기</a>
+      </div>
+  </div>
+</div>
+<div class="popup_layer2" id="popup_layer2" style="display: none;">
+  <div class="popup_box">
+      <div style="height: 10px; width: 375px; float: top;">
+<!--         <a href="javascript:closePop();"><img src="images/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>  -->
+      </div>
+      <!--팝업 컨텐츠 영역-->
+      <div class="popup_cont">
+         <h6 class="text-muted">신랑측 계좌번호</h6>
+         <p></p>
+         
+         <div class="box01 text-muted">
+   		 	<span style="float: left;"><strong style="float: left;">신부 김기은</strong></span>
+   		    <label>신한은행</label>
+         	<input id="myInput" value="110-401-755415" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>    
+         
+   		 <div class="box01 text-muted">
+        	<span style="float: left;"><strong style="float: left;">혼주 김병옥</strong></span>
+        	<label>우리은행</label>
+         	<input id="myInput" value="1002-657-272729" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>         
+
+   		 <div class="box01 text-muted">
+     		<span style="float: left;"><strong style="float: left;">혼주 이혜영 </strong></span>
+     		<label>농협은행</label>
+         	<input id="myInput" value="211042-52-050583" readonly>
+			<button onclick="copy_to_clipboard(this)">복사하기</button>
+		 </div>         
+
+
+      </div>
+      <!--팝업 버튼 영역-->
+      <div class="popup_btn" style="float: bottom;">
+          <a href="javascript:closePop();" style="color: #28a745; height: 50px;">닫기</a>
       </div>
   </div>
 </div>
@@ -637,13 +683,17 @@
         }
         
         //복사하기 기능
-        function copy_to_clipboard() {    
-        	  var copyText = document.getElementById('myInput');
-        	  copyText.select();
-        	  copyText.setSelectionRange(0, 99999);
-        	  document.execCommand("Copy");
-        	  alert(copyText + '복사되었습니다, 감사합니다.');
-        	}
+        function copy_to_clipboard(e) {    
+		
+        	 let copyText =  $(e).parent().children('input#myInput')[0];
+        	 
+        	 copyText.select();
+        	 copyText.setSelectionRange(0, 99999);
+        	 document.execCommand("Copy");
+        	 
+        	 alert('계좌번호가 복사되었습니다.');
+       	}
+        
 
     </script>
     
