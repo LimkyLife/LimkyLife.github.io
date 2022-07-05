@@ -230,7 +230,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container"><a href="#"><svg class="heart" viewBox="0 0 32 29.6"><path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
 </svg></a>
-      <h1 class="h2"><a class="pl-4 navbar-brand" href="#">Wonderful Wedding</a></h1>
+      <h1 class="h2"><a class="pl-4 navbar-brand" href="#">We are getting married</a></h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ww-navbarNav" aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -246,6 +246,10 @@
 </div>
 <div class="ww-section" id="couple">
   <div class="container">
+  
+     <div class="col-md-5 col-sm-12">
+        <div class="my-3"><img class="img-fluid" src="images/reception.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+      </div>
   
   	<div class="mt-3" style="text-align: center;"><img class="img-fluid" src="images/flower.png" alt="Bride" data-aos="flip-right" data-aos-duration="2000"/>
  
@@ -337,20 +341,17 @@
 				<div>
                   <span class="text-center text-muted contactus">신&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;부 <strong class="text-muted contactus">김기은</strong>
                     <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
-          	      	<a class="btn btn-link" href="sms:010-4642-9612" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-         <!-- 			<span class="text-muted" style="font-weight:700!important;">마음 전하실 곳</span>    -->  	
+          	      	<a class="btn btn-link" href="sms:010-4642-9612" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>	
          		  </div>
           	      <div>
                   <span class="text-muted contactus">아버지 <strong class="text-muted contactus">김병옥</strong>
                     <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
-          	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-         		<!-- 	<span class="text-muted">마음 전하실 곳</span>   -->    	
+          	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>	
          		  </div>
          		  <div>	
                		<span class="text-muted contactus">어머니 <strong class="text-muted contactus">이혜영</strong>
                     <a class="btn btn-link contactus2" href="tel:010-9249-8118"><img class="bi-telephone-fill" src="images/favicon/telephone-fill.svg"/></a>
           	      	<a class="btn btn-link" href="sms:010-9249-8118" style="margin-left: -22px;"><img class="bi-telephone-fill" src="images/favicon/envelope-fill.svg"/></a></span>
-  <!--         	      	 <span class="text-muted">마음 전하실 곳</span> -->
                   </div>
                   <a class="text-muted" href="javascript:openPopBride()" style="font-size: 15px">마음 전하실 곳</a>
 
@@ -464,7 +465,6 @@
       </div>
       <div class="col-md-5 col-sm-12">
         <div class="my-3" id="map" style="width:100%;height:400px;"></div>
-        <div class="my-3"><img class="img-fluid" src="images/reception.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
       </div>
     </div>
   </div>
@@ -480,69 +480,18 @@
       <div class="col-md-10">
         <div class="card-body">
           <form action="https://formspree.io/example@email.com" method="POST">
-            <div class="row">
-              <div class="col md-6 pb-3">
-                <div class="form-group">
-                  <label for="name-input">신랑 임경호</label>
-                  <label for="name-input">신랑측 혼주 임경호</label>
-                  <input class="form-control" id="name-input" type="text" name="name" required="required"/>
-                </div>
-              </div>
-              <div class="col-md-6 pb-3">
-                <div class="form-group">
-                  <label for="email-input">신랑측 혼주</label>
-                  <input class="form-control" id="email-input" type="email" name="_replyto" required="required"/>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col md-6 pb-3">
-                <div class="form-group">
-                  <label for="guest-input">Number of Guests</label>
-                  <select class="form-control" id="guest-input" name="guest">
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    <option value="4">Four</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-md-6 pb-3">
-                <div class="form-group">
-                  <label for="events-input">I am Attending</label>
-                  <select class="form-control" id="events-input" name="events">
-                    <option value="all-event">All Events</option>
-                    <option value="wedding-ceremony">Wedding ceremony</option>
-                    <option value="reception-party">Reception Party</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="form-group">
-                  <label for="message-input">Your Message</label>
-                  <textarea class="form-control" id="message-input" name="message" rows="4"></textarea>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col text-center">
-                <button class="btn btn-primary btn-submit" type="submit">Send</button>
-              </div>
-            </div>
           </form>
         </div>
       </div>
     </div>
   </div>
 </div>
-<div class="ww-footer bg-light">
+<!-- <div class="ww-footer bg-light">
   <div class="container text-center py-4">
     <p class="my-0">&copy; Wonderful Wedding. All rights reserved.</p>
     <p class="mb-0">Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
   </div>
-</div>
+</div> -->
 
 <div class="popup_layer" id="popup_layer" style="display: none;">
   <div class="popup_box">
