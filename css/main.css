@@ -13,8 +13,8 @@ body {
 
 .ww-home-page .ww-wedding-announcement {
 	width: 100%;
-	max-width: 1600px;
-	margin: 0 auto;
+/* 	max-width: 1600px;
+ */	margin: 0 auto;
 	height: 100%;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -23,20 +23,20 @@ body {
 }
 
 .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-	max-width: 600px;
+/* 	max-width: 600px; */
 	text-align: center;
 	margin-left: 0;
 	z-index: 999;
 }
 
 .ww-home-page .ww-wedding-announcement img {
-	max-height: 350px;
+	/* max-height: 350px; */
 	width: auto;
 }
 
 /* @media ( max-width : 480px) { */
 .ww-home-page .ww-wedding-announcement img {
-	max-height: 250px;
+/* 	max-height: 250px; */
 	width: auto;
 }
 /* } */
