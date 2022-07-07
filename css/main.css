@@ -7,8 +7,8 @@ body {
 	background: url("../images/SKH_0505_LOW.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100vh;
-	min-height: 480px;
-	max-height: 1080px;
+/* 	min-height: 480px;
+	max-height: 1080px; */
 }
 
 .ww-home-page .ww-wedding-announcement {
@@ -56,8 +56,8 @@ body {
   width: 100%;
   height: 100%;
   height: 100vh;
-  min-height: 480px;
-  max-height: 1080px;
+/*   min-height: 480px;
+  max-height: 1080px; */
   position: absolute;
   left: 0;
   top: 0; 
