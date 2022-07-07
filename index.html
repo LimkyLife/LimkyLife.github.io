@@ -43,15 +43,6 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-
-      </style>
-    </noscript>
   </head>
 
   <body id="top">
@@ -274,7 +265,7 @@
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid" src="images/wedding-party.jpg" alt="Wedding Party" data-aos="fade-up" data-aos-duration="2500"/></div>
+        <div class="my-3"><img class="img-fluid" src="images/wedding-party.jpg" alt="Wedding Party" data-aos="fade-up" data-aos-duration="1500"/></div>
       </div>
     </div>
     <div class="row">
@@ -406,7 +397,8 @@
       <script type="text/javascript">
   		$(document).ready(function(){
   			
-  		
+  			toastr.options.positionClass="toast-top-center";
+  			
   			var dday = new Date("August 27, 2022, 16:00:00").getTime();
 
   			setInterval(function() {
