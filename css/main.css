@@ -6,7 +6,7 @@ body {
 .ww-home-page {
 	background: url("../images/SKH_0505_LOW.jpg") no-repeat center center;
 	background-size: cover;
-	height: 100vh;
+	height: 844px;
 /* 	min-height: 480px;
 	max-height: 1080px; */
 }
@@ -253,7 +253,7 @@ body {
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
 }
-/*ÆË¾÷ ¹Ú½º*/
+/*íŒì—… ë°•ìŠ¤*/
 .popup_box {
 	position: relative;
 	top: 50%;
@@ -269,7 +269,7 @@ body {
 	-webkit-box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.35);
 }
-/*ÄÁÅÙÃ÷ ¿µ¿ª*/
+/*ì»¨í…ì¸  ì˜ì—­*/
 .popup_box .popup_cont {
 	padding: 20px;
 	line-height: 1.4rem;
@@ -286,7 +286,7 @@ body {
 	border-top: 1px solid #666;
 	padding-top: 15px;
 }
-/*¹öÆ°¿µ¿ª*/
+/*ë²„íŠ¼ì˜ì—­*/
 .popup_box .popup_btn {
 	display: table;
 	table-layout: fixed;
@@ -347,7 +347,7 @@ body {
 	{
 	display: none;
 }
-/*¿À¹ö·¹ÀÌ µŞ¹è°æ*/
+/*ì˜¤ë²„ë ˆì´ ë’·ë°°ê²½*/
 .popup_overlay {
 	position: fixed;
 	top: 0px;
