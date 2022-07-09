@@ -260,7 +260,7 @@ body {
 	left: 50%;
 	overflow: hidden;
 	/* height: 300px; */
-	width: 355px;
+	width: 365px;
 	transform: translate(-50%, -50%);
 	z-index: 1002;
 	box-sizing: border-box;
@@ -367,7 +367,7 @@ body {
 	font-size: 15px;
 	outline: none;
 	text-align: center;
-	width: 120px;
+	width: 128px;
 }
 
 .box01 button {
