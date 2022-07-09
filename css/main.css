@@ -271,7 +271,7 @@ body {
 }
 /*ÄÁÅÙÃ÷ ¿µ¿ª*/
 .popup_box .popup_cont {
-	padding: 22px;
+	padding: 19px;
 	line-height: 1.4rem;
 	font-size: 14px;
 }
@@ -363,6 +363,7 @@ body {
 }
 
 .box01 input {
+	width : 137px;
 	border: none;
 	font-size: 15px;
 	outline: none;
